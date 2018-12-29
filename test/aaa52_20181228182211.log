@@ -1,0 +1,471 @@
+2018-12-28 18:22:11  start listener server ok!
+2018-12-28 18:22:11  start pushServer
+2018-12-28 18:22:11  start pushServer ok!
+2018-12-28 18:22:11  time server start ok!
+2018-12-28 18:22:13  receive message source:{"cmd":"devroobo" , "value":{"content":"你好今天晚上你有什么想法" , "type":2} , "type":1 , "id":"3060100000003527" ,"flag":0 ,"src":1}
+2018-12-28 18:22:15  receive message source:{"cmd":"devroobo" , "value":{"content":"小品不差钱" , "type":1} , "type":1 , "id":"3060100000001519" ,"flag":0 ,"src":1}
+2018-12-28 18:22:17  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"A级景区" , "id":"0"} , "type":1 , "id":"3060100000003724" ,"flag":0 ,"src":1}
+2018-12-28 18:22:19  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1512464888" , "is_chager":0} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:22:19  power on:LoginInfo [sn=3060100000004863, loginTime=2018-12-28 18:22:19.371, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1512464888, powerState=1]
+2018-12-28 18:22:19  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":0} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:22:19  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1505896593"} , "type":1 , "id":"3060100000006591","flag":0 ,"src":1}
+2018-12-28 18:22:19  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1505896593"} , "type":1 , "id":"3060100000006591","flag":0 ,"src":1}
+2018-12-28 18:22:20  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"小花猫想错了" , "id":"0"} , "type":1 , "id":"3060100000003236" ,"flag":0 ,"src":1}
+2018-12-28 18:22:22  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"别回来" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:22:22  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"小青蛙爱敲鼓" , "id":"0"} , "type":1 , "id":"3060100000003929" ,"flag":0 ,"src":1}
+2018-12-28 18:22:26  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1502424179" , "is_chager":0} , "type":1 , "id":"3060100000004150" ,"flag":0 ,"src":1}
+2018-12-28 18:22:26  power on:LoginInfo [sn=3060100000004150, loginTime=2018-12-28 18:22:26.108, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1502424179, powerState=1]
+2018-12-28 18:22:26  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"小燕子" , "id":"0"} , "type":1 , "id":"3060100000006539" ,"flag":0 ,"src":1}
+2018-12-28 18:22:27  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545993042" , "is_chager":0} , "type":1 , "id":"3060100000001524" ,"flag":0 ,"src":1}
+2018-12-28 18:22:27  power on:LoginInfo [sn=3060100000001524, loginTime=2018-12-28 18:22:27.085, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545993042, powerState=1]
+2018-12-28 18:22:28  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"春天在哪里" , "id":"0"} , "type":1 , "id":"3060100000001948" ,"flag":0 ,"src":1}
+2018-12-28 18:22:30  receive message source:{"cmd":"devroobo" , "value":{"content":"触动" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:22:30  receive message source:{"cmd":"devroobo" , "value":{"content":"Fuck you you are the dumbest I hate you" , "type":3} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:22:31  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"斗牛舞" , "id":"0"} , "type":1 , "id":"3060100000001739" ,"flag":0 ,"src":1}
+2018-12-28 18:22:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:22:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"家" , "id":"0"} , "type":1 , "id":"3060100000003724" ,"flag":0 ,"src":1}
+2018-12-28 18:22:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"恰恰" , "id":"0"} , "type":1 , "id":"3060100000002328" ,"flag":0 ,"src":1}
+2018-12-28 18:22:33  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:22:34  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"听歌" , "id":"0"} , "type":1 , "id":"3060100000003509" ,"flag":0 ,"src":1}
+2018-12-28 18:22:35  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"我的身体" , "id":"0"} , "type":1 , "id":"3060100000001524" ,"flag":0 ,"src":1}
+2018-12-28 18:22:37  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"捉泥鳅" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:22:38  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:22:40  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"你家" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:22:41  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"找朋友" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:22:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:22:42  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"64.白龙马" , "id":"600305064"} , "type":1 , "id":"3060100000000122" ,"flag":0 ,"src":1}
+2018-12-28 18:22:43  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"恰恰" , "id":"0"} , "type":1 , "id":"3060100000004935" ,"flag":0 ,"src":1}
+2018-12-28 18:22:44  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"街舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:22:46  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"锐舞" , "id":"0"} , "type":1 , "id":"3060100000006572" ,"flag":0 ,"src":1}
+2018-12-28 18:22:47  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"我们多么幸福" , "id":"0"} , "type":1 , "id":"3060100000004377" ,"flag":0 ,"src":1}
+2018-12-28 18:22:49  receive message source:{"cmd":"devusefunc" , "value":{"func":"shop_uyeh" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:22:50  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"Bingo" , "id":"0"} , "type":1 , "id":"3060100000004179" ,"flag":0 ,"src":1}
+2018-12-28 18:22:51  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"踢踏舞" , "id":"0"} , "type":1 , "id":"3060100000006572" ,"flag":0 ,"src":1}
+2018-12-28 18:22:51  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"亲密融洽、和谐共处" , "id":"0"} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:22:52  receive message source:{"cmd":"devroobo" , "value":{"content":"小品卖拐" , "type":1} , "type":1 , "id":"3060100000001519" ,"flag":0 ,"src":1}
+2018-12-28 18:22:53  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"芭蕾舞" , "id":"0"} , "type":1 , "id":"3060100000001318" ,"flag":0 ,"src":1}
+2018-12-28 18:22:53  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:22:54  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:22:54  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"熊爸爸" , "id":"0"} , "type":1 , "id":"3060100000001434" ,"flag":0 ,"src":1}
+2018-12-28 18:22:55  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:22:57  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"跳支舞" , "id":"0"} , "type":1 , "id":"3060100000001559" ,"flag":0 ,"src":1}
+2018-12-28 18:22:58  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:22:58  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:23:00  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"1加1等于几啊" , "id":"0"} , "type":1 , "id":"3060100000004442" ,"flag":0 ,"src":1}
+2018-12-28 18:23:01  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"露西选择" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:23:01  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"绿军装的梦" , "id":"0"} , "type":1 , "id":"3060100000003651" ,"flag":0 ,"src":1}
+2018-12-28 18:23:02  receive message source:{"cmd":"devusefunc" , "value":{"func":"voice_eval" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:23:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"你怎么知道猴子高兴呢" , "id":"0"} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:23:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"我爱北京天安门" , "id":"0"} , "type":1 , "id":"3060100000006542" ,"flag":0 ,"src":1}
+2018-12-28 18:23:05  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"5加8等于几啊" , "id":"0"} , "type":1 , "id":"3060100000004442" ,"flag":0 ,"src":1}
+2018-12-28 18:23:09  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:23:10  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"民族舞" , "id":"0"} , "type":1 , "id":"3060100000002668" ,"flag":0 ,"src":1}
+2018-12-28 18:23:10  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:23:11  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"yelu" , "type":1 , "value":"读者来信4《孩子不断扔抓到的东西是怎么回事》" , "id":"0"} , "type":1 , "id":"3060100000001242" ,"flag":0 ,"src":1}
+2018-12-28 18:23:11  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:23:12  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"九月" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:23:14  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo translate" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:23:14  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1499099970"} , "type":1 , "id":"3060100000002635","flag":0 ,"src":1}
+2018-12-28 18:23:15  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"颜色变变变" , "id":"0"} , "type":1 , "id":"3060100000003013" ,"flag":0 ,"src":1}
+2018-12-28 18:23:15  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"华尔兹" , "id":"0"} , "type":1 , "id":"3060100000007383" ,"flag":0 ,"src":1}
+2018-12-28 18:23:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"可爱淘" , "id":"0"} , "type":1 , "id":"3060100000002036" ,"flag":0 ,"src":1}
+2018-12-28 18:23:20  receive message source:{"cmd":"devcharge" , "value":{"status":3} , "type":1 , "id":"3060100000001546" ,"flag":0 ,"src":1}
+2018-12-28 18:23:20  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"13乘以13等于几" , "id":"0"} , "type":1 , "id":"3060100000004442" ,"flag":0 ,"src":1}
+2018-12-28 18:23:21  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"story" , "type":1 , "value":"宋公时领兵战南北" , "id":"0"} , "type":1 , "id":"3060100000004286" ,"flag":0 ,"src":1}
+2018-12-28 18:23:22  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1501829225"} , "type":1 , "id":"3060100000000792","flag":0 ,"src":1}
+2018-12-28 18:23:22  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000792" ,"flag":0 ,"src":1}
+2018-12-28 18:23:24  receive message source:{"cmd":"devroobo" , "value":{"content":"Fuck you" , "type":2} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:23:24  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"爵士舞" , "id":"0"} , "type":1 , "id":"3060100000005855" ,"flag":0 ,"src":1}
+2018-12-28 18:23:28  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:23:28  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"44.Mystery Box神秘的盒子" , "id":"700303044"} , "type":1 , "id":"3060100000005734" ,"flag":0 ,"src":1}
+2018-12-28 18:23:29  receive message source:{"cmd":"devroobo" , "value":{"content":"惊讶" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:23:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"兰花草" , "id":"0"} , "type":1 , "id":"3060100000002236" ,"flag":0 ,"src":1}
+2018-12-28 18:23:30  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991573"} , "type":1 , "id":"3060100000001889","flag":0 ,"src":1}
+2018-12-28 18:23:30  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991573"} , "type":1 , "id":"3060100000001889","flag":0 ,"src":1}
+2018-12-28 18:23:30  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo speech en" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:23:31  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"大西瓜在哪呀" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:23:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000000395" ,"flag":0 ,"src":1}
+2018-12-28 18:23:33  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+
+org.eclipse.paho.client.mqttv3.internal.CommsCallback;run:171
+
+java.lang.Thread;run:745
+2018-12-28 18:23:33  server status:false
+2018-12-28 18:23:37  start listener server ok!
+2018-12-28 18:23:37  start pushServer
+2018-12-28 18:23:37  start pushServer ok!
+
+org.eclipse.paho.client.mqttv3.internal.CommsReceiver;run:138
+
+java.lang.Thread;run:745
+2018-12-28 18:23:37  client status:false
+2018-12-28 18:23:37  time server start ok!
+2018-12-28 18:23:38  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh class" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:40  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003527" ,"flag":0 ,"src":1}
+2018-12-28 18:23:42  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1499524675" , "is_chager":1} , "type":1 , "id":"3060100000006812" ,"flag":0 ,"src":1}
+2018-12-28 18:23:42  power on:LoginInfo [sn=3060100000006812, loginTime=2018-12-28 18:23:42.653, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1499524675, powerState=1]
+2018-12-28 18:23:43  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"大西瓜" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:23:44  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"司马懿杀曹爽" , "id":"0"} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:44  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002248" ,"flag":0 ,"src":1}
+2018-12-28 18:23:45  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:23:46  receive message source:{"cmd":"devroobo" , "value":{"content":"妈妈我想你" , "type":1} , "type":1 , "id":"3060100000004231" ,"flag":0 ,"src":1}
+2018-12-28 18:23:47  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002545" ,"flag":0 ,"src":1}
+2018-12-28 18:23:48  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:50  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990629"} , "type":1 , "id":"3060100000002545","flag":0 ,"src":1}
+2018-12-28 18:23:50  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990629"} , "type":1 , "id":"3060100000002545","flag":0 ,"src":1}
+2018-12-28 18:23:50  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:51  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000002248" ,"flag":0 ,"src":1}
+2018-12-28 18:23:52  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"捉泥鳅" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:23:52  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting msg1" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:23:53  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.82-1.1.20181205","status":0 , "code":"1512495256"} , "type":1 , "id":"3060100000007269" ,"flag":0 ,"src":1}
+2018-12-28 18:23:53  power on:LoginInfo [sn=3060100000007269, loginTime=2018-12-28 18:23:53.501, version=V7.82-1.1.20181205, deviceType=1, status=0, code=1512495256, powerState=1]
+2018-12-28 18:23:53  receive message source:{"cmd":"devusefunc" , "value":{"func":"shop_uyeh" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:55  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"你是哪家公司的" , "id":"0"} , "type":1 , "id":"3060100000004442" ,"flag":0 ,"src":1}
+2018-12-28 18:23:56  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000003419" ,"flag":0 ,"src":1}
+2018-12-28 18:23:56  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"找朋友" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:23:56  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992233"} , "type":1 , "id":"3060100000002996","flag":0 ,"src":1}
+2018-12-28 18:23:56  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992233"} , "type":1 , "id":"3060100000002996","flag":0 ,"src":1}
+2018-12-28 18:23:57  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002996" ,"flag":0 ,"src":1}
+2018-12-28 18:23:57  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:23:58  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"家庭称呼歌" , "id":"0"} , "type":1 , "id":"3060100000002327" ,"flag":0 ,"src":1}
+2018-12-28 18:23:59  receive message source:{"cmd":"devusefunc" , "value":{"func":"voice_eval" , "onestep":0} , "type":1 , "id":"3060100000003527" ,"flag":0 ,"src":1}
+2018-12-28 18:23:59  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"打工爸爸" , "id":"0"} , "type":1 , "id":"3060100000001948" ,"flag":0 ,"src":1}
+2018-12-28 18:23:59  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"7.世上只有妈妈好" , "id":"600305007"} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:23:59  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:01  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"39.小螺号" , "id":"600305039"} , "type":1 , "id":"3060100000004269" ,"flag":0 ,"src":1}
+2018-12-28 18:24:03  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"明天和哪个you" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:24:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"43.我是小蜜蜂" , "id":"600305043"} , "type":1 , "id":"3060100000001781" ,"flag":0 ,"src":1}
+2018-12-28 18:24:05  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"减少攻击 做个受人欢迎的小宝贝" , "id":"0"} , "type":1 , "id":"3060100000005759" ,"flag":0 ,"src":1}
+2018-12-28 18:24:05  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"小猪佩奇" , "id":"0"} , "type":1 , "id":"3060100000003886" ,"flag":0 ,"src":1}
+2018-12-28 18:24:06  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"5.八仙斗花龙" , "id":"500401005"} , "type":1 , "id":"3060100000003536" ,"flag":0 ,"src":1}
+2018-12-28 18:24:06  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo translate" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:07  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"四季歌" , "id":"0"} , "type":1 , "id":"3060100000002248" ,"flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990023"} , "type":1 , "id":"3060100000000417","flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000000793" ,"flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000417" ,"flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devcharge" , "value":{"status":1} , "type":1 , "id":"3060100000000793" ,"flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:08  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:24:09  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000000793" ,"flag":0 ,"src":1}
+2018-12-28 18:24:09  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"桑巴" , "id":"0"} , "type":1 , "id":"3060100000002328" ,"flag":0 ,"src":1}
+2018-12-28 18:24:09  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000005759" ,"flag":0 ,"src":1}
+2018-12-28 18:24:09  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004522" ,"flag":0 ,"src":1}
+2018-12-28 18:24:11  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"小鱼儿" , "id":"0"} , "type":1 , "id":"3060100000005786" ,"flag":0 ,"src":1}
+2018-12-28 18:24:11  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"19.唐诗联唱" , "id":"600305019"} , "type":1 , "id":"3060100000001878" ,"flag":0 ,"src":1}
+2018-12-28 18:24:12  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh class" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:24:12  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"华尔兹" , "id":"0"} , "type":1 , "id":"3060100000001739" ,"flag":0 ,"src":1}
+2018-12-28 18:24:12  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"家庭称呼歌" , "id":"0"} , "type":1 , "id":"3060100000001755" ,"flag":0 ,"src":1}
+2018-12-28 18:24:14  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545993001" , "is_chager":1} , "type":1 , "id":"3060100000001889" ,"flag":0 ,"src":1}
+2018-12-28 18:24:14  power on:LoginInfo [sn=3060100000001889, loginTime=2018-12-28 18:24:14.088, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545993001, powerState=1]
+2018-12-28 18:24:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"新年好" , "id":"0"} , "type":1 , "id":"3060100000006539" ,"flag":0 ,"src":1}
+2018-12-28 18:24:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"七色光之歌" , "id":"0"} , "type":1 , "id":"3060100000003013" ,"flag":0 ,"src":1}
+2018-12-28 18:24:17  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:24:19  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"桑巴" , "id":"0"} , "type":1 , "id":"3060100000004935" ,"flag":0 ,"src":1}
+2018-12-28 18:24:20  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"兰花草" , "id":"0"} , "type":1 , "id":"3060100000005489" ,"flag":0 ,"src":1}
+2018-12-28 18:24:21  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting msg1" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:21  receive message source:{"cmd":"devusefunc" , "value":{"func":"voice_eval" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:24:21  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"关了" , "id":"0"} , "type":1 , "id":"3060100000000372" ,"flag":0 ,"src":1}
+2018-12-28 18:24:21  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007269" ,"flag":0 ,"src":1}
+2018-12-28 18:24:22  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:24:22  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1527832076"} , "type":1 , "id":"3060100000000372","flag":0 ,"src":1}
+2018-12-28 18:24:22  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1527832076"} , "type":1 , "id":"3060100000000372","flag":0 ,"src":1}
+2018-12-28 18:24:23  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"你" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:24:23  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002968" ,"flag":0 ,"src":1}
+2018-12-28 18:24:24  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000002968" ,"flag":0 ,"src":1}
+2018-12-28 18:24:26  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1505030096"} , "type":1 , "id":"3060100000002129","flag":0 ,"src":1}
+2018-12-28 18:24:26  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1505030096"} , "type":1 , "id":"3060100000002129","flag":0 ,"src":1}
+2018-12-28 18:24:26  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"芭蕾舞" , "id":"0"} , "type":1 , "id":"3060100000002968" ,"flag":0 ,"src":1}
+2018-12-28 18:24:26  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:24:27  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"35.小白兔请客" , "id":"600305035"} , "type":1 , "id":"3060100000003036" ,"flag":0 ,"src":1}
+2018-12-28 18:24:27  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"牛仔舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:24:27  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"街舞" , "id":"0"} , "type":1 , "id":"3060100000001318" ,"flag":0 ,"src":1}
+2018-12-28 18:24:29  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000007269" ,"flag":0 ,"src":1}
+2018-12-28 18:24:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"45.One Fish一条鱼" , "id":"700303045"} , "type":1 , "id":"3060100000005734" ,"flag":0 ,"src":1}
+2018-12-28 18:24:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"锐舞" , "id":"0"} , "type":1 , "id":"3060100000006572" ,"flag":0 ,"src":1}
+2018-12-28 18:24:30  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"上午" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:24:30  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000005695" ,"flag":0 ,"src":1}
+2018-12-28 18:24:31  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"热舞劲舞" , "id":"0"} , "type":1 , "id":"3060100000005855" ,"flag":0 ,"src":1}
+2018-12-28 18:24:31  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"38.小老鼠上灯台" , "id":"600305038"} , "type":1 , "id":"3060100000000708" ,"flag":0 ,"src":1}
+2018-12-28 18:24:33  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"Please Sit Down" , "id":"0"} , "type":1 , "id":"3060100000004179" ,"flag":0 ,"src":1}
+2018-12-28 18:24:33  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"我能打败大妖怪" , "id":"0"} , "type":1 , "id":"3060100000001524" ,"flag":0 ,"src":1}
+2018-12-28 18:24:34  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"爱我你就抱抱我" , "id":"0"} , "type":1 , "id":"3060100000004169" ,"flag":0 ,"src":1}
+2018-12-28 18:24:34  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003527" ,"flag":0 ,"src":1}
+2018-12-28 18:24:36  receive message source:{"cmd":"devroobo" , "value":{"content":"哎" , "type":1} , "type":1 , "id":"3060100000004231" ,"flag":0 ,"src":1}
+2018-12-28 18:24:38  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"穿鞋真舒服" , "id":"0"} , "type":1 , "id":"3060100000005117" ,"flag":0 ,"src":1}
+2018-12-28 18:24:38  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"五" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:24:38  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990774"} , "type":1 , "id":"3060100000003413","flag":0 ,"src":1}
+2018-12-28 18:24:38  receive message source:{"cmd":"devroobo" , "value":{"content":"急促的近义词" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:24:38  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003413" ,"flag":0 ,"src":1}
+2018-12-28 18:24:39  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"65.祝你生日快乐" , "id":"600305065"} , "type":1 , "id":"3060100000000122" ,"flag":0 ,"src":1}
+2018-12-28 18:24:39  receive message source:{"cmd":"devroobo" , "value":{"content":"播放拔了播放儿歌拔萝卜" , "type":1} , "type":1 , "id":"3060100000003419" ,"flag":0 ,"src":1}
+2018-12-28 18:24:40  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"迪斯科" , "id":"0"} , "type":1 , "id":"3060100000002668" ,"flag":0 ,"src":1}
+2018-12-28 18:24:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"shop_uyeh" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:24:42  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:24:42  receive message source:{"cmd":"devroobo" , "value":{"content":"差你是我心里的一首歌" , "type":1} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:24:42  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007269" ,"flag":0 ,"src":1}
+2018-12-28 18:24:42  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"芭啦芭啦" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:24:43  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"铃儿响叮当" , "id":"0"} , "type":1 , "id":"3060100000002236" ,"flag":0 ,"src":1}
+2018-12-28 18:24:44  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545992780" , "is_chager":0} , "type":1 , "id":"3060100000002713" ,"flag":0 ,"src":1}
+2018-12-28 18:24:44  power on:LoginInfo [sn=3060100000002713, loginTime=2018-12-28 18:24:44.318, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545992780, powerState=1]
+2018-12-28 18:24:44  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:45  receive message source:{"cmd":"devcharge" , "value":{"status":1} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:24:45  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"1.A for apple b for boyA是苹果B是男孩" , "id":"700303001"} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:24:46  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"啦啦队舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:24:48  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"恰恰" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:24:48  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:24:49  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000001474" ,"flag":0 ,"src":1}
+
+org.eclipse.paho.client.mqttv3.internal.CommsCallback;run:171
+
+java.lang.Thread;run:745
+2018-12-28 18:24:49  server status:false
+2018-12-28 18:24:53  start listener server ok!
+2018-12-28 18:24:53  start pushServer
+2018-12-28 18:24:53  start pushServer ok!
+
+org.eclipse.paho.client.mqttv3.internal.CommsReceiver;run:138
+
+java.lang.Thread;run:745
+2018-12-28 18:24:53  client status:false
+2018-12-28 18:24:53  time server start ok!
+2018-12-28 18:24:53  receive message source:{"cmd":"devcharge" , "value":{"status":1} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:24:53  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1512452159"} , "type":1 , "id":"3060100000004935","flag":0 ,"src":1}
+2018-12-28 18:24:54  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004935" ,"flag":0 ,"src":1}
+2018-12-28 18:24:54  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000001474" ,"flag":0 ,"src":1}
+2018-12-28 18:24:54  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"我是小金鱼" , "id":"0"} , "type":1 , "id":"3060100000003236" ,"flag":0 ,"src":1}
+2018-12-28 18:24:54  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"华尔兹" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:24:55  receive message source:{"cmd":"devroobo" , "value":{"content":"你是我心里的一首歌" , "type":1} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:24:56  receive message source:{"cmd":"devdisconn","id":"3060100000002668","type":1,"flag":0,"src":1,"value":{"code":"1545992466"}}
+2018-12-28 18:24:57  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000002713" ,"flag":0 ,"src":1}
+2018-12-28 18:24:57  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting" , "onestep":0} , "type":1 , "id":"3060100000001474" ,"flag":0 ,"src":1}
+2018-12-28 18:24:58  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991650"} , "type":1 , "id":"3060100000000804","flag":0 ,"src":1}
+2018-12-28 18:24:59  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1515839151" , "is_chager":1} , "type":1 , "id":"3060100000002040" ,"flag":0 ,"src":1}
+2018-12-28 18:24:59  power on:LoginInfo [sn=3060100000002040, loginTime=2018-12-28 18:24:59.091, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1515839151, powerState=1]
+2018-12-28 18:24:59  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"探戈舞" , "id":"0"} , "type":1 , "id":"3060100000007383" ,"flag":0 ,"src":1}
+2018-12-28 18:24:59  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"探戈舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:01  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"小红花" , "id":"0"} , "type":1 , "id":"3060100000002603" ,"flag":0 ,"src":1}
+2018-12-28 18:25:02  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"七" , "id":"0"} , "type":1 , "id":"3060100000002132" ,"flag":0 ,"src":1}
+2018-12-28 18:25:03  receive message source:{"cmd":"devroobo" , "value":{"content":"你特约15北京的金山上" , "type":1} , "type":1 , "id":"3060100000004231" ,"flag":0 ,"src":1}
+2018-12-28 18:25:03  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"星娃娃" , "id":"0"} , "type":1 , "id":"3060100000001154" ,"flag":0 ,"src":1}
+2018-12-28 18:25:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"狐步舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:05  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:25:05  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1505030872" , "is_chager":0} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:25:05  power on:LoginInfo [sn=3060100000002129, loginTime=2018-12-28 18:25:05.311, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1505030872, powerState=1]
+2018-12-28 18:25:05  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"story" , "type":1 , "value":"想看世界的癞蛤蟆" , "id":"0"} , "type":1 , "id":"3060100000000409" ,"flag":0 ,"src":1}
+2018-12-28 18:25:06  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545993014" , "is_chager":0} , "type":1 , "id":"3060100000001884" ,"flag":0 ,"src":1}
+2018-12-28 18:25:06  power on:LoginInfo [sn=3060100000001884, loginTime=2018-12-28 18:25:06.516, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545993014, powerState=1]
+2018-12-28 18:25:07  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"捉泥鳅" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:25:07  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"我爱我的幼儿园" , "id":"0"} , "type":1 , "id":"3060100000006542" ,"flag":0 ,"src":1}
+2018-12-28 18:25:08  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"200飞车" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:25:09  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545977018"} , "type":1 , "id":"3060100000001704","flag":0 ,"src":1}
+2018-12-28 18:25:09  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"街舞" , "id":"0"} , "type":1 , "id":"3060100000003505" ,"flag":0 ,"src":1}
+2018-12-28 18:25:09  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000001474" ,"flag":0 ,"src":1}
+2018-12-28 18:25:10  receive message source:{"cmd":"devroobo" , "value":{"content":"朱佩琦电视剧第22集" , "type":1} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:25:11  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991464"} , "type":1 , "id":"3060100000001474","flag":0 ,"src":1}
+2018-12-28 18:25:11  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991464"} , "type":1 , "id":"3060100000001474","flag":0 ,"src":1}
+2018-12-28 18:25:11  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"快步舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:12  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"幸福的我" , "id":"0"} , "type":1 , "id":"3060100000000751" ,"flag":0 ,"src":1}
+2018-12-28 18:25:13  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1512359997" , "is_chager":0} , "type":1 , "id":"3060100000006206" ,"flag":0 ,"src":1}
+2018-12-28 18:25:13  power on:LoginInfo [sn=3060100000006206, loginTime=2018-12-28 18:25:13.709, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1512359997, powerState=1]
+2018-12-28 18:25:14  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"探戈舞" , "id":"0"} , "type":1 , "id":"3060100000006206" ,"flag":0 ,"src":1}
+2018-12-28 18:25:15  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"踢踏舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"44.我爱小青蛙" , "id":"600305044"} , "type":1 , "id":"3060100000001781" ,"flag":0 ,"src":1}
+2018-12-28 18:25:18  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"锐舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:18  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:25:21  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"迪斯科" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:24  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"民族舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:24  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"伦巴" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:26  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"爵士舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:26  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:25:27  receive message source:{"cmd":"devroobo" , "value":{"content":"播放粉红猪小妹电视剧第22集" , "type":1} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:25:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"热舞劲舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:29  receive message source:{"cmd":"devroobo" , "value":{"content":"噪音的近义词" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:25:30  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:25:30  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1512375475"} , "type":1 , "id":"3060100000005823","flag":0 ,"src":1}
+2018-12-28 18:25:30  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1512375475"} , "type":1 , "id":"3060100000005823","flag":0 ,"src":1}
+2018-12-28 18:25:31  receive message source:{"cmd":"devroobo" , "value":{"content":"去知道" , "type":1} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:25:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"江南style" , "id":"0"} , "type":1 , "id":"3060100000002327" ,"flag":0 ,"src":1}
+2018-12-28 18:25:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"8.两只老虎" , "id":"600305008"} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:25:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000005695" ,"flag":0 ,"src":1}
+2018-12-28 18:25:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"大头儿子小头爸爸" , "id":"0"} , "type":1 , "id":"3060100000001948" ,"flag":0 ,"src":1}
+2018-12-28 18:25:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"wechat" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:25:33  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1512703973"} , "type":1 , "id":"3060100000004522","flag":0 ,"src":1}
+2018-12-28 18:25:34  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1513595037" , "is_chager":0} , "type":1 , "id":"3060100000004204" ,"flag":0 ,"src":1}
+2018-12-28 18:25:34  power on:LoginInfo [sn=3060100000004204, loginTime=2018-12-28 18:25:34.448, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1513595037, powerState=1]
+2018-12-28 18:25:34  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"两颗小星星" , "id":"0"} , "type":1 , "id":"3060100000004179" ,"flag":0 ,"src":1}
+2018-12-28 18:25:34  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"铃儿响叮当" , "id":"0"} , "type":1 , "id":"3060100000005489" ,"flag":0 ,"src":1}
+2018-12-28 18:25:35  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"一分钱" , "id":"0"} , "type":1 , "id":"3060100000006539" ,"flag":0 ,"src":1}
+2018-12-28 18:25:36  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"古典舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:36  receive message source:{"cmd":"devroobo" , "value":{"content":"是的" , "type":1} , "type":1 , "id":"3060100000002129" ,"flag":0 ,"src":1}
+2018-12-28 18:25:36  receive message source:{"cmd":"devroobo" , "value":{"content":"噪音的近义词" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:25:37  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990658"} , "type":1 , "id":"3060100000002603","flag":0 ,"src":1}
+2018-12-28 18:25:37  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990658"} , "type":1 , "id":"3060100000002603","flag":0 ,"src":1}
+2018-12-28 18:25:37  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"星星的心" , "id":"0"} , "type":1 , "id":"3060100000001524" ,"flag":0 ,"src":1}
+2018-12-28 18:25:38  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"太阳起床我也起床" , "id":"0"} , "type":1 , "id":"3060100000002248" ,"flag":0 ,"src":1}
+2018-12-28 18:25:38  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"包饺子" , "id":"0"} , "type":1 , "id":"3060100000002713" ,"flag":0 ,"src":1}
+2018-12-28 18:25:39  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"民间舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:39  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990658"} , "type":1 , "id":"3060100000002603","flag":0 ,"src":1}
+2018-12-28 18:25:40  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545990658"} , "type":1 , "id":"3060100000002603","flag":0 ,"src":1}
+2018-12-28 18:25:40  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002603" ,"flag":0 ,"src":1}
+2018-12-28 18:25:40  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"你怎么知道猴子高兴呢" , "id":"0"} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:25:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"啦啦啦" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:25:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"哎" , "id":"0"} , "type":1 , "id":"3060100000002132" ,"flag":0 ,"src":1}
+2018-12-28 18:25:42  receive message source:{"cmd":"devroobo" , "value":{"content":"一首歌唱王力宏的来了我心里的一首歌" , "type":1} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:25:43  receive message source:{"cmd":"devroobo" , "value":{"content":"江阴银行" , "type":1} , "type":1 , "id":"3060100000005695" ,"flag":0 ,"src":1}
+2018-12-28 18:25:43  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000004204" ,"flag":0 ,"src":1}
+2018-12-28 18:25:44  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"我有一双万能的手" , "id":"0"} , "type":1 , "id":"3060100000004377" ,"flag":0 ,"src":1}
+2018-12-28 18:25:45  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:25:46  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"江南style" , "id":"0"} , "type":1 , "id":"3060100000001755" ,"flag":0 ,"src":1}
+2018-12-28 18:25:47  receive message source:{"cmd":"devroobo" , "value":{"content":"嫌疑的近义词" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:25:47  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"锐舞" , "id":"0"} , "type":1 , "id":"3060100000004204" ,"flag":0 ,"src":1}
+2018-12-28 18:25:48  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:25:51  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"斗牛舞" , "id":"0"} , "type":1 , "id":"3060100000002328" ,"flag":0 ,"src":1}
+2018-12-28 18:25:52  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992415"} , "type":1 , "id":"3060100000003505","flag":0 ,"src":1}
+2018-12-28 18:25:52  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992415"} , "type":1 , "id":"3060100000003505","flag":0 ,"src":1}
+2018-12-28 18:25:53  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003505" ,"flag":0 ,"src":1}
+2018-12-28 18:25:53  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":4} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:25:53  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"66.种太阳" , "id":"600305066"} , "type":1 , "id":"3060100000000122" ,"flag":0 ,"src":1}
+2018-12-28 18:25:53  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"拍手歌" , "id":"0"} , "type":1 , "id":"3060100000002236" ,"flag":0 ,"src":1}
+2018-12-28 18:25:54  receive message source:{"cmd":"devroobo" , "value":{"content":"律师" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:25:56  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"探戈舞" , "id":"0"} , "type":1 , "id":"3060100000001739" ,"flag":0 ,"src":1}
+2018-12-28 18:25:56  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"现代舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:25:57  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"wiki" , "type":1 , "value":"什么是龙卷风" , "id":"0"} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:25:58  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:00  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"你" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:26:00  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:02  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000004412" ,"flag":0 ,"src":1}
+2018-12-28 18:26:03  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"40.平安夜童话" , "id":"600305040"} , "type":1 , "id":"3060100000004269" ,"flag":0 ,"src":1}
+2018-12-28 18:26:03  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"芭蕾舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:26:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"找朋友" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:05  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"踢踏舞" , "id":"0"} , "type":1 , "id":"3060100000006572" ,"flag":0 ,"src":1}
+2018-12-28 18:26:06  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"街舞" , "id":"0"} , "type":1 , "id":"3060100000002968" ,"flag":0 ,"src":1}
+2018-12-28 18:26:08  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:26:08  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"单亲母亲如何担起育儿重任" , "id":"0"} , "type":1 , "id":"3060100000004601" ,"flag":0 ,"src":1}
+2018-12-28 18:26:09  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"不要放歌曲" , "id":"0"} , "type":1 , "id":"3060100000001141" ,"flag":0 ,"src":1}
+2018-12-28 18:26:10  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545993410" , "is_chager":0} , "type":1 , "id":"3060100000000417" ,"flag":0 ,"src":1}
+2018-12-28 18:26:10  power on:LoginInfo [sn=3060100000000417, loginTime=2018-12-28 18:26:10.084, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545993410, powerState=1]
+2018-12-28 18:26:10  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"小鸟餐桌" , "id":"0"} , "type":1 , "id":"3060100000005783" ,"flag":0 ,"src":1}
+2018-12-28 18:26:10  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"牛仔舞" , "id":"0"} , "type":1 , "id":"3060100000001318" ,"flag":0 ,"src":1}
+2018-12-28 18:26:10  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh class" , "onestep":0} , "type":1 , "id":"3060100000004412" ,"flag":0 ,"src":1}
+2018-12-28 18:26:12  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"白果" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:26:13  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"老师像妈妈" , "id":"0"} , "type":1 , "id":"3060100000004412" ,"flag":0 ,"src":1}
+2018-12-28 18:26:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"街舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:26:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"昨日重现" , "id":"0"} , "type":1 , "id":"3060100000001154" ,"flag":0 ,"src":1}
+2018-12-28 18:26:18  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"story" , "type":1 , "value":"头的渔夫2" , "id":"0"} , "type":1 , "id":"3060100000004286" ,"flag":0 ,"src":1}
+2018-12-28 18:26:19  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":4} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:19  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:26:19  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000001132" ,"flag":0 ,"src":1}
+2018-12-28 18:26:21  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"妹妹背着洋娃娃" , "id":"0"} , "type":1 , "id":"3060100000001612" ,"flag":0 ,"src":1}
+2018-12-28 18:26:21  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1512469329" , "is_chager":0} , "type":1 , "id":"3060100000004785" ,"flag":0 ,"src":1}
+2018-12-28 18:26:21  power on:LoginInfo [sn=3060100000004785, loginTime=2018-12-28 18:26:21.696, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1512469329, powerState=1]
+2018-12-28 18:26:22  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:26:22  receive message source:{"cmd":"devroobo" , "value":{"content":"唱小鸭子" , "type":1} , "type":1 , "id":"3060100000004059" ,"flag":0 ,"src":1}
+2018-12-28 18:26:23  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"什么水果水果吗" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:26:24  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:26:25  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"古典舞" , "id":"0"} , "type":1 , "id":"3060100000005855" ,"flag":0 ,"src":1}
+2018-12-28 18:26:25  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"yelu" , "type":1 , "value":"读者来信5《孩子喜欢咬人打人怎么办》" , "id":"0"} , "type":1 , "id":"3060100000001242" ,"flag":0 ,"src":1}
+2018-12-28 18:26:25  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:27  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh  music" , "onestep":0} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:27  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:26:28  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":0} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:26:29  receive message source:{"cmd":"devusefunc" , "value":{"func":"wechat" , "onestep":0} , "type":1 , "id":"3060100000004067" ,"flag":0 ,"src":1}
+2018-12-28 18:26:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"找朋友" , "id":"0"} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:29  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"来了一群小鸭子" , "id":"0"} , "type":1 , "id":"3060100000005117" ,"flag":0 ,"src":1}
+2018-12-28 18:26:30  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"39.小螺号" , "id":"600305039"} , "type":1 , "id":"3060100000000708" ,"flag":0 ,"src":1}
+2018-12-28 18:26:32  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":0} , "type":1 , "id":"3060100000001132" ,"flag":0 ,"src":1}
+2018-12-28 18:26:33  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"香蕉" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:26:34  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"牛仔舞" , "id":"0"} , "type":1 , "id":"3060100000006575" ,"flag":0 ,"src":1}
+2018-12-28 18:26:35  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"爱我你就抱抱我" , "id":"0"} , "type":1 , "id":"3060100000002036" ,"flag":0 ,"src":1}
+2018-12-28 18:26:36  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"牛仔舞" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:26:38  receive message source:{"cmd":"devroobo" , "value":{"content":"林俊杰的江南" , "type":1} , "type":1 , "id":"3060100000007210" ,"flag":0 ,"src":1}
+2018-12-28 18:26:38  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"小鱼快跑" , "id":"0"} , "type":1 , "id":"3060100000005786" ,"flag":0 ,"src":1}
+2018-12-28 18:26:39  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:26:40  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"包饺子" , "id":"0"} , "type":1 , "id":"3060100000004169" ,"flag":0 ,"src":1}
+2018-12-28 18:26:40  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"45.我爱洗澡" , "id":"600305045"} , "type":1 , "id":"3060100000001781" ,"flag":0 ,"src":1}
+2018-12-28 18:26:40  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1545993141" , "is_chager":0} , "type":1 , "id":"3060100000002489" ,"flag":0 ,"src":1}
+2018-12-28 18:26:40  power on:LoginInfo [sn=3060100000002489, loginTime=2018-12-28 18:26:40.432, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1545993141, powerState=1]
+2018-12-28 18:26:40  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"狐步舞" , "id":"0"} , "type":1 , "id":"3060100000007383" ,"flag":0 ,"src":1}
+2018-12-28 18:26:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo" , "onestep":2} , "type":1 , "id":"3060100000003536" ,"flag":0 ,"src":1}
+2018-12-28 18:26:41  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"几" , "id":"0"} , "type":1 , "id":"3060100000004442" ,"flag":0 ,"src":1}
+2018-12-28 18:26:42  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh class" , "onestep":0} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:26:43  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"古典舞" , "id":"0"} , "type":1 , "id":"3060100000001132" ,"flag":0 ,"src":1}
+2018-12-28 18:26:43  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"呀" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:26:45  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1513595037"} , "type":1 , "id":"3060100000004204","flag":0 ,"src":1}
+2018-12-28 18:26:45  power offLoginInfo [sn=3060100000004204, loginTime=2018-12-28 18:26:45.393, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1513595037, powerState=0]
+2018-12-28 18:26:45  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"拍手歌" , "id":"0"} , "type":1 , "id":"3060100000005489" ,"flag":0 ,"src":1}
+2018-12-28 18:26:45  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1513595037"} , "type":1 , "id":"3060100000004204","flag":0 ,"src":1}
+2018-12-28 18:26:45  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"36.小红帽" , "id":"600305036"} , "type":1 , "id":"3060100000003036" ,"flag":0 ,"src":1}
+2018-12-28 18:26:45  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000004204" ,"flag":0 ,"src":1}
+2018-12-28 18:26:47  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003536" ,"flag":0 ,"src":1}
+2018-12-28 18:26:48  receive message source:{"cmd":"devroobo" , "value":{"content":"你是个男人" , "type":1} , "type":1 , "id":"3060100000004231" ,"flag":0 ,"src":1}
+2018-12-28 18:26:48  receive message source:{"cmd":"devusefunc" , "value":{"func":"dance_uyeh" , "onestep":4} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:49  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"采蘑菇的小姑娘" , "id":"0"} , "type":1 , "id":"3060100000002713" ,"flag":0 ,"src":1}
+2018-12-28 18:26:49  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"左右看人生" , "id":"0"} , "type":1 , "id":"3060100000003236" ,"flag":0 ,"src":1}
+2018-12-28 18:26:50  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"If You_re Happy" , "id":"0"} , "type":1 , "id":"3060100000002216" ,"flag":0 ,"src":1}
+2018-12-28 18:26:51  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"2.三只金苹果" , "id":"500603002"} , "type":1 , "id":"3060100000007401" ,"flag":0 ,"src":1}
+2018-12-28 18:26:52  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"46.One Little Finger一个小手指" , "id":"700303046"} , "type":1 , "id":"3060100000005734" ,"flag":0 ,"src":1}
+2018-12-28 18:26:52  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"芭啦芭啦" , "id":"0"} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:26:54  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991646"} , "type":1 , "id":"3060100000000527","flag":0 ,"src":1}
+2018-12-28 18:26:54  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991646"} , "type":1 , "id":"3060100000000527","flag":0 ,"src":1}
+2018-12-28 18:26:54  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000527" ,"flag":0 ,"src":1}
+2018-12-28 18:26:55  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"狐步舞" , "id":"0"} , "type":1 , "id":"3060100000006206" ,"flag":0 ,"src":1}
+2018-12-28 18:26:56  receive message source:{"cmd":"devusefunc" , "value":{"func":"roobo speech en" , "onestep":0} , "type":1 , "id":"3060100000003536" ,"flag":0 ,"src":1}
+2018-12-28 18:26:58  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"小青蛇小花蛇" , "id":"0"} , "type":1 , "id":"3060100000003929" ,"flag":0 ,"src":1}
+2018-12-28 18:26:59  receive message source:{"cmd":"devusefunc" , "value":{"func":"setting msg1" , "onestep":0} , "type":1 , "id":"3060100000000417" ,"flag":0 ,"src":1}
+2018-12-28 18:27:01  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"wiki" , "type":1 , "value":"什么是回音" , "id":"0"} , "type":1 , "id":"3060100000005827" ,"flag":0 ,"src":1}
+2018-12-28 18:27:03  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"什么" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:27:03  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"开汽车" , "id":"0"} , "type":1 , "id":"3060100000000751" ,"flag":0 ,"src":1}
+2018-12-28 18:27:04  receive message source:{"cmd":"devusefunc" , "value":{"func":"music_uyeh class" , "onestep":0} , "type":1 , "id":"3060100000002489" ,"flag":0 ,"src":1}
+2018-12-28 18:27:04  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"82.What's Your Name你叫什么名字" , "id":"700303082"} , "type":1 , "id":"3060100000002911" ,"flag":0 ,"src":1}
+2018-12-28 18:27:05  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000417" ,"flag":0 ,"src":1}
+2018-12-28 18:27:05  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"灰姑娘" , "id":"0"} , "type":1 , "id":"3060100000006542" ,"flag":0 ,"src":1}
+2018-12-28 18:27:06  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992327"} , "type":1 , "id":"3060100000003883","flag":0 ,"src":1}
+2018-12-28 18:27:06  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992327"} , "type":1 , "id":"3060100000003883","flag":0 ,"src":1}
+2018-12-28 18:27:07  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003883" ,"flag":0 ,"src":1}
+2018-12-28 18:27:09  receive message source:{"cmd":"devroobo" , "value":{"content":"维持生命" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:27:09  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"9.嫦娥奔月" , "id":"500401009"} , "type":1 , "id":"3060100000000363" ,"flag":0 ,"src":1}
+2018-12-28 18:27:09  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1512495452" , "is_chager":0} , "type":1 , "id":"3060100000007269" ,"flag":0 ,"src":1}
+2018-12-28 18:27:09  power on:LoginInfo [sn=3060100000007269, loginTime=2018-12-28 18:27:09.937, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1512495452, powerState=1]
+2018-12-28 18:27:10  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"数数歌" , "id":"0"} , "type":1 , "id":"3060100000002489" ,"flag":0 ,"src":1}
+2018-12-28 18:27:10  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"七色光" , "id":"0"} , "type":1 , "id":"3060100000002236" ,"flag":0 ,"src":1}
+2018-12-28 18:27:11  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992793"} , "type":1 , "id":"3060100000003527","flag":0 ,"src":1}
+2018-12-28 18:27:11  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545992793"} , "type":1 , "id":"3060100000003527","flag":0 ,"src":1}
+2018-12-28 18:27:11  cycle handle login Message
+
+com.uyeh.schedule.ExecutorTimerSchedule$1;getLoginMap:141
+
+com.uyeh.schedule.ExecutorTimerSchedule$1;handleLoginInfo:154
+
+com.uyeh.schedule.ExecutorTimerSchedule$1;run:59
+
+java.util.concurrent.Executors$RunnableAdapter;call:471
+
+java.util.concurrent.FutureTask;runAndReset:304
+
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask;access$301:178
+
+java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask;run:293
+
+java.util.concurrent.ThreadPoolExecutor;runWorker:1145
+
+java.util.concurrent.ThreadPoolExecutor$Worker;run:615
+
+java.lang.Thread;run:745
+2018-12-28 18:27:13  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"做什么呀" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:27:13  receive message source:{"cmd":"devpoweroff" , "value":{"code":"1545991395"} , "type":1 , "id":"3060100000001296","flag":0 ,"src":1}
+2018-12-28 18:27:14  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"大象拔河" , "id":"0"} , "type":1 , "id":"3060100000001948" ,"flag":0 ,"src":1}
+2018-12-28 18:27:16  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"数红包" , "id":"0"} , "type":1 , "id":"3060100000002489" ,"flag":0 ,"src":1}
+2018-12-28 18:27:18  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000003536" ,"flag":0 ,"src":1}
+2018-12-28 18:27:20  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"爸爸，公主也会放屁吗" , "id":"0"} , "type":1 , "id":"3060100000002489" ,"flag":0 ,"src":1}
+2018-12-28 18:27:20  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"class" , "type":1 , "value":"老爷爷" , "id":"0"} , "type":1 , "id":"3060100000004412" ,"flag":0 ,"src":1}
+2018-12-28 18:27:20  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"海尔兄弟" , "id":"0"} , "type":1 , "id":"3060100000003651" ,"flag":0 ,"src":1}
+2018-12-28 18:27:22  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"shop_uyeh" , "type":2 , "value":"9.中秋节" , "id":"600305009"} , "type":1 , "id":"3060100000003691" ,"flag":0 ,"src":1}
+2018-12-28 18:27:23  receive message source:{"cmd":"devroobo" , "value":{"content":"特殊的近义词" , "type":1} , "type":1 , "id":"3060100000004863" ,"flag":0 ,"src":1}
+2018-12-28 18:27:24  receive message source:{"cmd":"devroobo" , "value":{"content":"你唱歌10日15北京的金山上" , "type":1} , "type":1 , "id":"3060100000004231" ,"flag":0 ,"src":1}
+2018-12-28 18:27:28  receive message source:{"cmd":"devboxinfo" , "value":{"version":"V7.83-1.1.20181226","status":0 , "code":"1505899035" , "is_chager":0} , "type":1 , "id":"3060100000006539" ,"flag":0 ,"src":1}
+2018-12-28 18:27:28  power on:LoginInfo [sn=3060100000006539, loginTime=2018-12-28 18:27:28.25, version=V7.83-1.1.20181226, deviceType=1, status=0, code=1505899035, powerState=1]
+2018-12-28 18:27:28  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"公鸡" , "id":"0"} , "type":1 , "id":"3060100000004179" ,"flag":0 ,"src":1}
+2018-12-28 18:27:30  receive message source:{"cmd":"devcharge" , "value":{"status":2} , "type":1 , "id":"3060100000001707" ,"flag":0 ,"src":1}
+2018-12-28 18:27:30  receive message source:{"cmd":"devusefunc" , "value":{"func":"speechplay" , "type":0 , "value":"张赫宣的歌曲" , "id":"0"} , "type":1 , "id":"3060100000004427" ,"flag":0 ,"src":1}
+2018-12-28 18:27:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"dance_uyeh" , "type":1 , "value":"华尔兹" , "id":"0"} , "type":1 , "id":"3060100000002328" ,"flag":0 ,"src":1}
+2018-12-28 18:27:32  receive message source:{"cmd":"devboxmusic" , "value":{"appname":"music" , "type":1 , "value":"一双小小手" , "id":"0"} , "type":1 , "id":"3060100000006539" ,"flag":0 ,"src":1}
