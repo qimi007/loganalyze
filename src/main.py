@@ -10,6 +10,7 @@ import re
 import json
 import pymysql
 import time
+import sys
 
 attrname = {'devboxinfo': "上线", 'devboxcharge': "上线并充电", 'devcharge': "充电状态", 'devpoweroff': "关机", \
             'devdisconn': "设备异常断开", 'sendmsgwx': "发送微信语音", \
@@ -26,9 +27,9 @@ devcharge = ["未充电", "开始充电", "停止充电", "完成充电", "未�
 
 
 # 数据连接
-def dbOpen(dbuser , passwd , dbname):
+def dbOpen(host, dbuser , passwd , dbname):
     # 连接数据库
-    db = pymysql.connect("localhost" , dbuser , passwd , dbname)
+    db = pymysql.connect(host , dbuser , passwd , dbname)
     # 创建游标
     cursor = db.cursor()
     return db,cursor
@@ -90,13 +91,29 @@ def getLogfile(dirname):
 # 用户数据行为数据保存
 def useractSaveDate(db , cursor , fd , data):
     jsonobj = ""
+    datatmp = ""
     try:
         jsonobj = json.loads(data[2])
     except:
-        print("json error : %s", data)
+        print("json error : ", data)
+        datatmp = data[2]
         # data[2] = data[2].replace("\\", " ")
         # 规范格式
-        jsonobj = json.loads(data[2].replace("\\", " "))
+        # 主要对转义字符进行处理\\ \/ \b \t \r \n \f \v \' \" \? \0 \ #
+        datatmp = datatmp.replace("\\", " ")
+        datatmp = datatmp.replace("\/", " ")
+        datatmp = datatmp.replace("\b", " ")
+        datatmp = datatmp.replace("\t", "    ")
+        datatmp = datatmp.replace("\r", " ")
+        datatmp = datatmp.replace("\n", " ")
+        datatmp = datatmp.replace("\f", "")
+        datatmp = datatmp.replace("\v", "")
+        # datatmp = datatmp.replace("\'", " ")
+        # datatmp = datatmp.replace("\"", " ")
+        datatmp = datatmp.replace("\?", "?")
+        datatmp = datatmp.replace("\0", " ")
+        jsonobj = json.loads(datatmp)
+        # jsonobj = json.loads(data[2].replace("\\", ""))
         # print("json error : %s", data)
 
         # db.rollback()
@@ -330,7 +347,34 @@ if __name__ == '__main__':
     # print("你好")
     # exit(1)
     # 数据目录
-    datadir = "../data6"
+    # datadir = "../data7"
+
+    # 参数判断
+    argvlen = len(sys.argv)
+    if argvlen != 6:
+        if argvlen == 0:
+            pass
+        else:
+            print("请运行主程序...")
+            os.system('pause')
+            sys.exit(-1)
+    else:
+        if sys.argv[1] != 'uyehuser':
+            print("sb")
+            sys.exit(-1)
+
+    datadir = sys.argv[5]
+
+    # print(str(len(sys.argv)))
+    # print(sys.argv)
+
+    daytime = time.strftime('%Y%m%d', time.localtime(time.time()))
+    # with open("userlog" + daytime + ".run", "a", encoding="utf-8") as userlogfd:
+    userlogfd = open("userlog" + daytime + ".run", "a", encoding="utf-8")
+    sys.stdout = userlogfd
+    sys.stderr = userlogfd
+
+
     # 获取日志文件名
     logfiles = getLogfile(datadir)
     print(logfiles)
@@ -338,7 +382,8 @@ if __name__ == '__main__':
     # exit(1)
 
     # 连接数据库
-    db,cursor = dbOpen("root", "123456", "uyehdb")
+    # db,cursor = dbOpen("root", "123456", "uyehdb")
+    db, cursor = dbOpen(sys.argv[2], sys.argv[3], sys.argv[4], "uyehdb")
 
     # 数据表检测
     dbTableCheck(db , cursor)
@@ -367,3 +412,6 @@ if __name__ == '__main__':
 
     # 关闭数据库
     dbClose(db)
+
+    # 关闭日志输出
+    userlogfd.close()

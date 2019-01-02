@@ -7,7 +7,10 @@
 import os
 import re
 import json
+import sys
+import time
 import pymysql
+# import demjson
 
 
 
@@ -25,49 +28,84 @@ def getlogfile(dirname):
         # print("files:", files)
         return files
 
-# files = getlogfile("../data")
-# print(files)
 
-# 打开文件
-count = 0
-# pattern = re.compile(r"\d-\d-\d \d:\d:\d.*receive message source:")
-pattern = re.compile(r"(\d+-\d+-\d+) (\d+:\d+:\d+)  receive message source:(\{.*\}$)")
-# pattern = re.compile("(^\d.*b\}$)", flags=0)
-str1 = r'2018-11-30 10:14:35  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000048" ,"flag":0 ,"src":1}'
-# str1 = '2018-11-30 10:14:35 {cmd:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab}'
-print(str1)
-# print(len(str1))
-
-result = re.search(pattern , str1 , 0)
-# result = pattern.match(str1)
-print(result)
-print(result.groups())
-actdate1, acttime1, action1 = result.groups()
-# data = data[2]
-# print(data)
-
-jsonobj = json.loads(action1)
-print(jsonobj['cmd'])
+if __name__ == '__main__':
+    # files = getlogfile("../data")
+    # print(files)
 
 
 
-# value = jsonobj['value']['func']
-value = jsonobj['value']['func']
-print(value)
-try:
-    print(jsonobj['value']['id'])
-except:
-    jsonobj['value']['func'] = "hello"
-    print(jsonobj['value'])
 
-print("hello ",jsonobj['value'])
+    # 参数判断
+    argvlen = len(sys.argv)
+    if argvlen != 6:
+        if argvlen == 0:
+            pass
+        else:
+            print("请运行主程序...")
+            os.system('pause')
+            sys.exit(-1)
+    else:
+        if sys.argv[1] != 'uyehuser':
+            print("sb")
+            sys.exit(-1)
+
+    # print(str(len(sys.argv)))
+    # print(sys.argv)
+
+    daytime = time.strftime('%Y%m%d', time.localtime(time.time()))
+    # with open("userlog" + daytime + ".run", "a", encoding="utf-8") as userlogfd:
+    userlogfd = open("userlog" + daytime + ".run", "a", encoding="utf-8")
+    sys.stdout = userlogfd
+    sys.stderr = userlogfd
+
+    # 打开文件
+    count = 0
+    # pattern = re.compile(r"\d-\d-\d \d:\d:\d.*receive message source:")
+    pattern = re.compile(r"(\d+-\d+-\d+) (\d+:\d+:\d+)  receive message source:(\{.*\}$)")
+    # pattern = re.compile("(^\d.*b\}$)", flags=0)
+    str1 = r'2018-11-30 10:14:35  receive message source:{"cmd":"devusefunc" , "value":{"func":"desktop" , "onestep":0} , "type":1 , "id":"3060100000000048" ,"flag":0 ,"src":1}'
+    # str1 = '2018-11-30 10:14:35 {cmd:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab}'
+    print(str1)
+    # print(len(str1))
+
+    result = re.search(pattern , str1 , 0)
+    # result = pattern.match(str1)
+    print(result)
+    print(result.groups())
+    actdate1, acttime1, action1 = result.groups()
+    # data = data[2]
+    # print(data)
+
+    jsonobj = json.loads(action1)
+
+    print(jsonobj['cmd'])
 
 
-testdata = ('2018-12-27', '18:51:17', '{"cmd":"devroobo" , "value":{"content":"我大家来Nini\\Aro路我来了" , "type":1} , "type":1 , "id":"3060100000004601" ,"flag":0 ,"src":1}')
 
-jsonobj = json.loads(testdata[2].replace("\\", " "))
+    # value = jsonobj['value']['func']
+    value = jsonobj['value']['func']
+    print(value)
+    try:
+        print(jsonobj['value']['id'])
+    except:
+        jsonobj['value']['func'] = "hello"
+        print(jsonobj['value'])
 
-print("jsonobj:%s",jsonobj['value'])
+    print("hello ",jsonobj['value'])
+
+    testdata = ('2018-12-27', '18:51:17', '{"cmd":"devroobo" , "value":{"content":"我大家来Nini\\Aro路我来了" , "type":1} , "type":1 , "id":"3060100000004601" ,"flag":0 ,"src":1}')
+
+    jsonobj = json.loads(testdata[2].replace("\\", " "))
+    # jsonobj = demjson.encode(testdata[2])
+
+    # print(jsonobj)
+    print("jsonobj:",jsonobj['value'])
+
+    # 关闭日志输出
+    userlogfd.close()
+
+    # os.system('pause')
 
 
 
