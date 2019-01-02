@@ -53,7 +53,8 @@ if __name__ == '__main__':
     # print(str(len(sys.argv)))
     # print(sys.argv)
 
-    daytime = time.strftime('%Y%m%d', time.localtime(time.time()))
+    daytime = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
+    print(daytime)
     # with open("userlog" + daytime + ".run", "a", encoding="utf-8") as userlogfd:
     userlogfd = open("userlog" + daytime + ".run", "a", encoding="utf-8")
     sys.stdout = userlogfd

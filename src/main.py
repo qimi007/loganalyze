@@ -368,7 +368,7 @@ if __name__ == '__main__':
     # print(str(len(sys.argv)))
     # print(sys.argv)
 
-    daytime = time.strftime('%Y%m%d', time.localtime(time.time()))
+    daytime = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
     # with open("userlog" + daytime + ".run", "a", encoding="utf-8") as userlogfd:
     userlogfd = open("userlog" + daytime + ".run", "a", encoding="utf-8")
     sys.stdout = userlogfd
@@ -390,7 +390,7 @@ if __name__ == '__main__':
 
 
 
-    daytime = time.strftime('%Y%m%d',time.localtime(time.time()))
+    daytime = time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
     # 保存微信消息文件
     with open(datadir+ "/sendwxmsg_"+daytime+".wx", "w", encoding="utf-8") as logfd:
         for logfile in logfiles:
